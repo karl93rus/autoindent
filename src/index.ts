@@ -10,6 +10,6 @@ let strings: string[] = readByLine(fileContent);
 
 let parsedFile = parseFile(strings);
 
-let done = replace(strings, indent2(parsedFile)).join('');
+let done = replace(strings, parsedFile).join('');
 
 fs.writeFileSync(`${__dirname}/../test/test_json.ts`, done, 'utf8');

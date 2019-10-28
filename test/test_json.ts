@@ -37,3 +37,14 @@ let test223 = {
 }
 
 const var32 = 'asdas';
+
+let test2423 = {
+	v: '123',
+	vb: '123',
+	vbn: '123',
+	vbnnn: '123',
+	vn: '123',
+	vbnmmvbn: '123',
+}
+
+// comment2
