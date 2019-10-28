@@ -1,5 +1,3 @@
-import * as fs from 'fs';
-import { readByLine } from './readByLine';
 import {
 	multyLineObjBegin,
 	multyLineObjEnd,
@@ -10,8 +8,9 @@ import {
 let insideJson: boolean = false;
 
 export function replace(src: string[], indented: string[]): string[] {
+	console.log('replace func. indented.length: ', indented.length);
 	if(indented.length === 0) {
-		return [] as string[];
+		return src;
 	}
 	let indentedIndex: number = 0;
 	src.forEach((line: string, index: number) => {
