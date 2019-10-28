@@ -22,10 +22,10 @@ export function parseFile(stringifyedFile: string[]): string[] {
 		if(insideJson && objField.test(input)) {
 			buffer.push(input);
 		} else if(!insideJson && buffer.length > 0) {
-			console.log('buffer in parseFile:\n', buffer);
+			// console.log('buffer in parseFile:\n', buffer);
 			res = [...res, ...indent2(buffer)];
 			buffer = [];
-			console.log('indented res in parseFile:\n', res);
+			// console.log('indented res in parseFile:\n', res);
 		}
 	}
 	return res;

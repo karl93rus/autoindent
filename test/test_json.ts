@@ -3,11 +3,11 @@ const var21 = 'as';
 const var31 = 'as';
 
 let test1 = {
-	a: '123',
-	ab: '123',
-	abc: '123',
-	abcd: '123',
-	abcde: '123',
+	a: 'test1123',
+	ab: 'test1123',
+	abc: 'test1123',
+	abcd: 'test1123',
+	abcde: 'test1123',
 }
 
 // comment
@@ -17,34 +17,34 @@ function testFunc() {
 }
 
 let test22 ={
-	q: '123',
-	qw: '123',
-	qwe: '123',
-	qwertyuio: '123',
-	qwert: '123',
-	s: '123',
+	q: 'test22123asd',
+	qw: 'test22123d',
+	qwe: 'test2212355',
+	qwert: 'test2212',
+	s: 'test2223',
+	qwertyuio: 'test22123d',
 }
 
 const var22 = 'asdas';
 
 let test223 = {
-	g: '123',
-	gh: '123',
-	ghj: '123',
-	ghjk: '123',
-	gk: '123',
-	l: '123',
+	g: 'test223123asdd',
+	gh: 'test223123ggg',
+	ghj: 'test223123g',
+	ghjk: 'test22312asdas3',
+	gk: 'test22312asdasdd3',
+	l: 'test2231ghj23',
 }
 
 const var32 = 'asdas';
 
 let test2423 = {
-	v: '123',
-	vb: '123',
-	vbn: '123',
-	vbnnn: '123',
-	vn: '123',
-	vbnmmvbn: '123',
+	v: 'test242312jj3',
+	vb: 'test242313',
+	vbn: 'test242312asd3',
+	vbnnn: 'test242312yy3',
+	vn: 'test24231',
+	vbnmmvbn: 'test2423123asdasd',
 }
 
 // comment2

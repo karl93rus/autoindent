@@ -9,7 +9,7 @@ let insideJson: boolean = false;
 
 export function replace(src: string[], indented: string[]): string[] {
 	// console.log('replace func. indented: ', indented);
-	console.log('replace func. indented.length: ', indented.length);
+	// console.log('replace func. indented.length: ', indented.length);
 	if(indented.length === 0) {
 		return src;
 	}
