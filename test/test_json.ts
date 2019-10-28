@@ -1,6 +1,8 @@
-const var1 = 'as';
+const var11 = 'as';
+const var21 = 'as';
+const var31 = 'as';
 
-let test = {
+let test1 = {
 	a: '123',
 	ab: '123',
 	abc: '123',
@@ -10,7 +12,11 @@ let test = {
 
 // comment
 
-let test2 = {
+function testFunc() {
+	console.log('test func body');
+}
+
+let test22 ={
 	q: '123',
 	qw: '123',
 	qwe: '123',
@@ -19,4 +25,15 @@ let test2 = {
 	s: '123',
 }
 
-const var2 = 'asdas';
+const var22 = 'asdas';
+
+let test223 = {
+	g: '123',
+	gh: '123',
+	ghj: '123',
+	ghjk: '123',
+	gk: '123',
+	l: '123',
+}
+
+const var32 = 'asdas';
