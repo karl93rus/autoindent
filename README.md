@@ -6,6 +6,7 @@ Possible extension for vs code.
 #### Things to do:
 - [ ] Make it a VS Code extension
 - [ ] Create a very large file and test how fast this ext works
+- [ ] Make it work with nested json objects
 
 #### Things done:
 - [x] Indent JSON objects
